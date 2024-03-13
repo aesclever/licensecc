@@ -29,8 +29,8 @@ It has a [BSD 3 clauses](https://opensource.org/licenses/BSD-3-Clause) licensing
 The software is made by 4 main sub-components:
 -   a C++ library with a nice C api, `licensecc` with minimal (or no) external dependencies (the part you have to integrate in your software) that is the project you're currently in.
 -   a license debugger `lcc-inspector` to be sent to the final customer when there are licensing problems or for calculating the pc hash before issuing the license.
--   a license generator (github project [lcc-license-generator](https://github.com/open-license-manager/lcc-license-generator)) `lccgen` for customizing the library and generate the licenses.
--   Usage [examples](https://github.com/open-license-manager/examples) to simplify the integration in your project.
+-   a license generator (github project [lcc-license-generator](https://github.com/aesclever/licensecc-generator)) `lccgen` for customizing the library and generate the licenses.
+-   Usage [examples](https://github.com/aesclever/licensecc_examples) to simplify the integration in your project.
  
 ## How to build
 Below an overview of the basic build procedure, you can find detailed instructions for [Linux](http://open-license-manager.github.io/licensecc/development/Build-the-library.html) 
@@ -90,7 +90,7 @@ ctest -C Release
 
 ## How to use
 
-The [examples](https://github.com/open-license-manager/examples) repository that shows various ways to integrate `licensecc` into your project.
+The [examples](https://github.com/aesclever/licensecc_examples) repository that shows various ways to integrate `licensecc` into your project.
 
 ## How to contribute
 
